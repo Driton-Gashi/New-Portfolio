@@ -227,7 +227,7 @@ let footer = $(`
     </a>
 
     <a title="My Company's Instagram Page" class="social-button linkedin" href="https://www.instagram.com/dritondesign/" target="_blank" rel="author">
-    <imgclass="linkedin-icon-footer" src="./assets/icons/logo-transparent.png" alt="">
+    <img style="width:46px;" class="linkedin-icon-footer" src="./assets/icons/logo-transparent.png" alt="">
 </a>
 
 
