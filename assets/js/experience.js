@@ -5,25 +5,25 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Founder at Dritondesign",
+    cardImage: "assets/icons/logo.jpg",
+    place: "Dritondesign",
+    time: "(Sep, 2023 - present)",
+    desp: "<li>As the Founder of Dritondesign, I lead a creative team dedicated to crafting stunning websites, including captivating landing pages and e-commerce solutions. We also specialize in graphic design, creating logos, banners, and engaging social media posts.</li><li>Our commitment extends beyond just design; we offer services to enhance social media interactivity, driving meaningful engagement for various platforms. Additionally, we thrive on collaboration, working closely with other companies to deliver exceptional digital experiences. Dritondesign is all about innovation, creativity, and impactful partnerships.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Web Developer",
+    cardImage: "assets/images/project-page/it2pi.png",
+    place: "IT2pi LLC",
+    time: "(Sep, 2022 - Present)",
+    desp: "<li>Designing, creating, and maintaining websites for clients around the world is the core responsibility of my role as a WordPress developer.</li><li>Collaborating with designers to ensure design consistency and implementing their creative vision is an essential aspect of my work.</li><li>I collaborate with designers to create responsive courses using Adobe Captivate, ensuring smooth LMS integration to meet the needs of prestigious clients worldwide.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Freelancer",
+    cardImage: "assets/icons/freelancer2.jpg",
+    place: "Frontend Developer ",
+    time: "(Jan, 2022 - Sep, 2022)",
+    desp: "<li>I've held the position of a freelance frontend developer, specializing in crafting captivating websites..</li><li>I leveraged my skills in web design, utilizing tools like Photoshop for stunning visuals. My proficiency in HTML, Elementor, and WordPress allowed me to build user-friendly websites. Additionally, I employed CSS3 to enhance site aesthetics and React.js and JavaScript for dynamic functionality, resulting in seamless and engaging user experiences.</li>",
   },
 ];
 
@@ -62,29 +62,12 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Nothing to show here",
+    cardImage: "assets/icons/freelancer2.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quae velit esse aperiam.",
   },
-  {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
-    description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
-  },
-  {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
+  
 ];
 
 const showCards = () => {
@@ -111,109 +94,41 @@ document.addEventListener("DOMContentLoaded", showCards);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
-    title: "The Uplift Project",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/uplift.png",
-    desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
-    href: "https://uplift.girlscript.tech/",
+    title: "Social Media Graphic Design",
+    subtitle: "Photoshop, ChatGPT ㋡",
+    image: "assets/icons/post1.jpg",
+    desp: "I find immense joy in using Photoshop to create social media posts. It's my creative outlet, where I blend art and technology to craft visually captivating stories. Whether it's designing graphics or enhancing photos, Photoshop empowers me to share my passions and spark conversations through captivating content.",
+    href: "https://www.instagram.com/p/Cv2foRGNVVc/",
   },
   {
-    title: "ULHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/ulhacks.png",
-    desp: "ULHacks is a 36 hour long hackathon organized with an aim to enable students to create a project which empowers learning.",
-    href: "https://ulhacks.com/",
+    title: "Web Design",
+    subtitle: "Figma, Photoshop, Dribbble ㋡",
+    image: "assets/icons/design.jpg",
+    desp: "Creating website designs with Figma and Photoshop is my passion. These tools allow me to blend creativity and precision, transforming concepts into visually captivating and user-friendly websites, all while expressing a brand's identity. It's a fulfilling endeavor that fuels my love for design.",
+    href: "",
   },
   {
-    title: "WaffleHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/wafflehacks.png",
-    desp: "WaffleHacks 2021 is an upcoming 48-hour student-organized hackathon with an aim to bring technical solutions to local communities and small businesses.",
-    href: "https://wafflehacks.org/",
+    title: "Web Development",
+    subtitle: "HTML, CSS, JS, React JS, Wordpress, Php, MySQL",
+    image: "assets/icons/development2.jpg",
+    desp: "My passion for website design knows no bounds, spanning HTML, CSS, JS, React.js, WordPress, PHP, and MySQL. These tools allow me to craft dynamic, visually appealing, and functional web experiences that constantly fuel my creative drive.",
+    href: "./projects.html",
   },
   {
-    title: "Elevate Tech",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/elevate.png",
-    desp: "Elevate Hacks is an upcoming all-female virtual hackathon coming from AUGUST 14th to 15th.",
-    href: "https://elevatetech.codes/",
+    title: "Social Media Engagement Increase",
+    subtitle: "Sprout Social, BuzzSumo, HootSuite",
+    image: "assets/icons/social-media-boost.jpg",
+    desp: "I excel at enhancing social media engagement on platforms like Instagram, TikTok, and Facebook. Whether you need more likes, comments, or interaction, I tailor strategies to boost your online presence and connect with your audience effectively. My expertise in platform algorithms and user behavior ensures authentic and impactful results.",
+    href: "",
+
   },
   {
-    title: "PitchTeen",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/pitchteen.png",
-    desp: "PitchTeen 2.0 was a tech startup competition for female and non-binary communities in high school and college from all over the world with an aim to create a safe and encouraging place for women to help them explore tech and business fields.",
-    href: "https://www.linkedin.com/company/pitchteen/about/",
-  },
-  {
-    title: "Hack-A-Solution",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/hackasolution.png",
-    desp: "Hack-a-Solution 2021 is a 24 hour long hackathon organized by Frisco students to raise awareness of world issues through technology.",
-    href: "https://hackasolution.devpost.com/",
-  },
-  {
-    title: "UniGlobe Hacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/uniglobe.png",
-    desp: "UniGlobe Hacks 2.0 is an upcoming 4-day long hackathon run by high school students held during 28-31 July 2021.",
-    href: "https://uniglobe-hacks.devpost.com/",
-  },
-  {
-    title: "AtlasHacks",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/atlas.png",
-    desp: "AtlasHacks II is a 3-day virtual hackathon that aims to foster creativity within hackers all around the world.",
-    href: "https://atlashacks2.devpost.com/",
-  },
-  {
-    title: "NeoHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/neo.png",
-    desp: "NeoHacks is an upcoming 48-hour hackathon taking place July 23-25, 2021 where hundreds of students from around the world will come together virtually to learn new skills, meet new friends, and build awesome projects. We provide beginner-friendly workshops, mentorship, fun games, and more.",
-    href: "https://neohacks.org/",
-  },
-  {
-    title: "Mission Inspired",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/mission.png",
-    desp: "InspireEd Hacks is a nationwide initiative organized by the student-for-student nonprofit, Mission InspirEd, challenging students ages 10-18 to synthesize their creativity and coding experience into a product beneficial to the educational community.",
-    href: "https://www.missioninspired.org/hackathon",
-  },
-  {
-    title: "Hack3",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/hack3.png",
-    desp: "Hack3 2021 is an upcoming global online hackathon that aims to enable high school students to learn computer science, with a broader message of (everyone can code) targeting underrepresented demographics to improve diversity and inclusion of individuals in the computer technology space.",
-    href: "https://hack3.co/",
-  },
-  {
-    title: "JITHack",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/jithack.png",
-    desp: "JITHack is an upcoming virtual design and development hackathon organized by the students of Jyothy Institute of Technology, Bengaluru on June 26, 2021, where participants have 24 hours to build something incredible.",
-    href: "https://jithack.netlify.app/",
-  },
-  {
-    title: "Recess Hacks",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/recess.png",
-    desp: "Recess Hacks is an upcoming hackathon for high school students in the Greater Toronto Area that strives to encourage innovation among high school students and get involved in technology.",
-    href: "https://recesshacks.com/",
-  },
-  {
-    title: "Citro Tech",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/citro.png",
-    desp: "Citro Hacks 2021 is an upcoming all-inclusive online hackathon organized by Citro Tech, a student led organization dedicated to empowering minorities in the tech field</li>",
-    href: "https://citro.tech/",
-  },
-  {
-    title: "NHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/nhacks.png",
-    desp: "NHacks VI was a hackathon that aimed to encourage students everywhere to develop skills in computer science by creating tangible products that they're proud of. It initially started as Michigan's largest high school hackathon.",
-    href: "https://nhacks-vi.devpost.com/",
+    title: "Logo Creating",
+    subtitle: "Photoshop, illustrator",
+    image: "assets/icons/LogoCreate.jpg",
+    desp: "I have a knack for designing eye-catching logos that perfectly represent new businesses. A logo is a vital part of your brand identity, and my designs are tailored to make a lasting impact, helping your business stand out and convey its essence effectively, whether you're launching a startup or rebranding.",
+    href: "",
+
   },
 ];
 
