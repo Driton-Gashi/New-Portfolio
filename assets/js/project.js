@@ -54,6 +54,14 @@ const projects = [
     Githublink: "",
   },
   {
+    title: "My old Portfolio",
+    cardImage: "assets/images/project-page/old_portfolio.png",
+    description: "My Last Portfolio, 1 page website created with HTML, CSS and Javascript.",
+    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+    Previewlink: "https://driton-old-portfolio.netlify.app/",
+    Githublink: "https://github.com/Driton-Gashi/old-portfolio",
+  },
+  {
     title: "Full Stack Application With PERN",
     cardImage: "assets/images/project-page/gym-application.png",
     description: "A Full Stack application for a GYM and Ecommerce Company created with: PostgreSQL, Express JS, React, Node",
@@ -68,6 +76,15 @@ const projects = [
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
     Previewlink: "",
     Githublink: "https://github.com/Driton-Gashi/Minecraft-Project",
+  },
+  { 
+    title: "Static Website with React JS",
+    cardImage: "assets/images/project-page/shota-design.netlify.app_.png",
+    description: "Static 1 page website created with HTML, CSS and Javascript.",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "https://shota-design.netlify.app/",
+    Githublink: "",
   },
   {
     title: "EURO DEKOR",
@@ -114,15 +131,6 @@ const projects = [
     Previewlink: "https://random-team.netlify.app/",
     Githublink: "https://github.com/Driton-Gashi/Movie-streaming-site",
   },
-  { 
-    title: "Static Website with React JS",
-    cardImage: "assets/images/project-page/shota-design.netlify.app_.png",
-    description: "Static 1 page website created with HTML, CSS and Javascript.",
-    tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "https://shota-design.netlify.app/",
-    Githublink: "",
-  },
   {
     title: "Static 1 page website (HTML, CSS, JS)",
     cardImage: "assets/images/project-page/dritontest6.netlify.app_.png",
@@ -146,7 +154,7 @@ const showCards = () => {
             <div class="data">
               <div class="content">
               <div class="title-div">
-                <h1 class="title"><a target="_blank" href="${Previewlink}">${title}</a></h1>
+                <h1 class="title"><a ${Previewlink.length == 0?"":'target="_blank" href="'+Previewlink+'"'}>${title}</a></h1>
                 </div>
             <ul class="menu-content"><br>
             
