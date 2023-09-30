@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "This Website",
-    cardImage: "assets/images/project-page/dritondesign-zoomed.jpg",
+    cardImage: "assets/images/project-page/dritondesign.jpg",
     description: "This is my actual portfolio website, created using HTML, CSS, and some Javascript Libraries",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "../index.html",
