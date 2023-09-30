@@ -270,7 +270,7 @@ a:hover {
 
 @media (min-width: 311px) {
   .card .text {
-    font-size: 0.7;
+    font-size: 0.7em;
   }
 }
 
