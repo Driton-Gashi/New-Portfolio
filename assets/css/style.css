@@ -6,7 +6,7 @@
 
 /*CSS variable declaration for light/dark mode*/
 .hide{
-  display: none;
+  display: none!important;
 }
 html[data-theme="light"] {
   --bg-mybtn: red;
