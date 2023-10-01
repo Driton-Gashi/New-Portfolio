@@ -1010,7 +1010,7 @@ Send button micro animation
 
 #main {
   position: relative;
-  margin-left: 4rem;
+  margin-left: 5rem;
   width: 270px;
   
 }
@@ -1092,5 +1092,16 @@ outline: none;
     color: #ff1f5a;
     margin-top: -100px;
     transform: scale(0) rotateZ(-90deg);
+  }
+}
+
+/* Driton Gashi */
+@media(max-width:456px){
+  #lnch{
+    margin-left: -2rem!important;
+    
+  }
+  #lnch_btn{
+    right: 2rem;
   }
 }
