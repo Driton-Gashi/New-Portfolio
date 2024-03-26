@@ -6,6 +6,22 @@ const moreProjectsBtn = document.querySelector(".more-projects");
 // Array of object for projects
 const projects = [
   {
+    title: "WWW.PRIMALOUNGE.COM",
+    cardImage: "assets/icons/freelancer2.jpg",
+    description: "A WordPress Website created for the Primalounge company based in Peja, Kosove.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://primalounge.com/",
+    Githublink: "",
+  },
+  {
+    title: "WWW.AGMARKET-KS.COM",
+    cardImage: "assets/images/project-page/AGmarket-ks.com.png",
+    description: "A WordPress Website created for the Ag Market company based in Peja, Kosove.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://agmarket-ks.com/",
+    Githublink: "",
+  },
+  {
     title: "WWW.DRITON-GASHI.COM",
     cardImage: "assets/images/project-page/dritondesign.jpg",
     description: "This is my actual portfolio website, created using HTML, CSS, and some Javascript Libraries",
@@ -69,6 +85,11 @@ const projects = [
     Previewlink: "https://driton-old-portfolio.netlify.app/",
     Githublink: "https://github.com/Driton-Gashi/old-portfolio",
   },
+  
+  
+];
+
+const moreProjectsArray = [
   {
     title: "Full Stack Application With PERN",
     cardImage: "assets/images/project-page/gym-application.png",
@@ -85,10 +106,6 @@ const projects = [
     Previewlink: "",
     Githublink: "https://github.com/Driton-Gashi/Minecraft-Project",
   },
-];
-
-const moreProjectsArray = [
-  
   { 
     title: "Static Website with React JS",
     cardImage: "assets/images/project-page/shota-design.netlify.app_.png",
