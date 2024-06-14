@@ -287,11 +287,20 @@ let footer = $(`
     .then(response => response.json())
     .then(data => {
       console.log(data);
-      alert('Form submitted successfully!');
+      Swal.fire({
+        title: "Congrats!",
+        text: "Your Message was sent successfully!",
+        icon: "success"
+      });
     })
     .catch(error => {
       console.log(error);
       alert('There was an error submitting the form');
+      Swal.fire({
+        title: "oops",
+        text: "There was an error submitting the form",
+        icon: "error"
+      });
     });
   }
 
