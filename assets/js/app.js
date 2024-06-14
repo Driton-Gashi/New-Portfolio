@@ -138,16 +138,17 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form name="form1" action="https://formcarry.com/s/Fl6oVv-m7Y" method="POST" accept-charset="UTF-8" >
-                  <input id="name" type="text" name="name" placeholder="Your Name" required/>
-                  <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
-                  <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
-              
-                  <div id="main">
-                    <button id="lnch" type="button" value="Send" >Send</button>
-                    <div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
-                  </div>
-                </form>
+               <form id="form1" onsubmit="submitForm(event)" method="POST">
+  <input id="name" type="text" name="name" placeholder="Your Name" required />
+  <input id="email" type="email" name="email" placeholder="Email Address" required />
+  <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
+  <div id="main">
+    <button id="lnch" type="submit">Send</button>
+    <div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
+  </div>
+</form>
+
+
               </div>
             </div>
           </div>
@@ -262,6 +263,38 @@ let footer = $(`
     </div>
 </footer>
 `);
+
+  function submitForm(event) {
+    event.preventDefault(); // Prevents the default form submission behavior
+
+    const form = document.getElementById('form1');
+    const formData = new FormData(form);  
+
+    const data = {
+      name: formData.get('name'),
+      email: formData.get('email'),
+      message: formData.get('message')
+    };
+
+    fetch("https://formsubmit.co/ajax/hello@dritongashi.com", {  // Make sure to use the correct endpoint
+      method: "POST",
+      headers: { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+      alert('Form submitted successfully!');
+    })
+    .catch(error => {
+      console.log(error);
+      alert('There was an error submitting the form');
+    });
+  }
+
 
 //"Scroll to top" button
 let upArrow = $(`
