@@ -7,7 +7,7 @@ const moreProjectsBtn = document.querySelector(".more-projects");
 const projects = [
   {
     title: "WWW.PRIMALOUNGE.COM",
-    cardImage: "assets/icons/freelancer2.jpg",
+    cardImage: "#",
     description: "A WordPress Website created for the Primalounge company based in Peja, Kosove.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://primalounge.com/",
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "WWW.AGMARKET-KS.COM",
-    cardImage: "assets/images/project-page/AGmarket-ks.com.png",
+    cardImage: "assets/images/project-page/AGmarket-ks.com.webp",
     description: "A WordPress Website created for the Ag Market company based in Peja, Kosove.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://agmarket-ks.com/",
@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "WWW.DRITON-GASHI.COM",
-    cardImage: "assets/images/project-page/dritondesign.jpg",
+    cardImage: "assets/images/project-page/dritondesign.webp",
     description: "This is my actual portfolio website, created using HTML, CSS, and some Javascript Libraries",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "../index.html",
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "WWW.ASANISAGENCY.COM",
-    cardImage: "assets/images/project-page/Asanis_Agency.jpg",
+    cardImage: "assets/images/project-page/Asanis_Agency.webp",
     description: "A WordPress Website created for the ASANISAGENCY company.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://asanisagency.com",
@@ -47,7 +47,7 @@ const projects = [
   },
   {
     title: "WWW.IT2PI.COM",
-    cardImage: "assets/images/project-page/it2pi_square.jpg",
+    cardImage: "assets/images/project-page/it2pi_square.webp",
     description: "A WordPress Website created for IT2PI Company.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://it2pi.ditar-compliance.de/",
@@ -55,7 +55,7 @@ const projects = [
   },
   {
     title: "WWW.KANZLEI-AM-KURECK.DE",
-    cardImage: "assets/images/project-page/kanzlei-am-kureck.jpg",
+    cardImage: "assets/images/project-page/kanzlei-am-kureck.webp",
     description: "A WordPress Website created for KANZLEI-AM-KURECK Company.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "https://kanzlei-am-kureck.de/",
@@ -71,7 +71,7 @@ const projects = [
   },
   {
     title: "WWW.EMBEL-HOME.DE",
-    cardImage: "assets/images/project-page/Embel Home.jpg",
+    cardImage: "assets/images/project-page/Embel Home.webp",
     description: "A WordPress Website created for EMBEL-HOME Company.",
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
     Previewlink: "https://embel-home.de/",
@@ -79,7 +79,7 @@ const projects = [
   },
   {
     title: "My old Portfolio",
-    cardImage: "assets/images/project-page/old_portfolio.png",
+    cardImage: "assets/images/project-page/old_portfolio.webp",
     description: "My Last Portfolio, 1 page website created with HTML, CSS and Javascript.",
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
     Previewlink: "https://driton-old-portfolio.netlify.app/",
@@ -92,7 +92,7 @@ const projects = [
 const moreProjectsArray = [
   {
     title: "Full Stack Application With PERN",
-    cardImage: "assets/images/project-page/gym-application.png",
+    cardImage: "assets/images/project-page/gym-application.webp",
     description: "A Full Stack application for a GYM and Ecommerce Company created with: PostgreSQL, Express JS, React, Node",
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
     Previewlink: "",
@@ -100,7 +100,7 @@ const moreProjectsArray = [
   },
   {
     title: "School Project Full Stack with Php and MySQL",
-    cardImage: "assets/icons/freelancer2.jpg",
+    cardImage: "#",
     description: "A Full Stack application, created as a school project using PHP and MySQL",
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
     Previewlink: "",
@@ -108,7 +108,7 @@ const moreProjectsArray = [
   },
   { 
     title: "Static Website with React JS",
-    cardImage: "assets/images/project-page/shota-design.netlify.app_.png",
+    cardImage: "assets/images/project-page/shotadesign.webp",
     description: "Static 1 page website created with HTML, CSS and Javascript.",
     tagimg:
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
@@ -134,7 +134,7 @@ const moreProjectsArray = [
   },
   {
     title: "Weather App",
-    cardImage: "assets/images/project-page/driton-weather-app.netlify.app_.png",
+    cardImage: "assets/images/project-page/driton-weather-app.netlify.app_.webp",
     description: "Weather App created with HTML, CSS and Javascript, getting data from an online API.",
     tagimg:
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
@@ -143,7 +143,7 @@ const moreProjectsArray = [
   },
   {
     title: "Random Team Generator",
-    cardImage: "assets/images/project-page/naruto-arena.png",
+    cardImage: "assets/images/project-page/naruto-arena.webp",
     description:
       "Web Application that generates random teams with 200+ characters, created with javascript.",
     tagimg:
@@ -153,7 +153,7 @@ const moreProjectsArray = [
   },
   {
     title: "Movie Streaming Website",
-    cardImage: "assets/images/project-page/movie-streaming.png",
+    cardImage: "assets/images/project-page/movie-streaming.webp",
     description: "Movie Streaming Website with HTML, CSS and Javascript.",
     tagimg:
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
@@ -162,7 +162,7 @@ const moreProjectsArray = [
   },
   {
     title: "Static 1 page website (HTML, CSS, JS)",
-    cardImage: "assets/images/project-page/dritontest6.netlify.app_.png",
+    cardImage: "assets/images/project-page/dritontest6.netlify.app_.webp",
     description: "Static 1 page website created with HTML, CSS and Javascript.",
     tagimg:
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
