@@ -6,8 +6,17 @@ const moreProjectsBtn = document.querySelector(".more-projects");
 // Array of object for projects
 const projects = [
   {
+    title: "WWW.BERISHA.CO.AT",
+    cardImage: "assets/images/project-page/berisha.png",
+    description: "A WordPress Website created for Berisha Maler which is a construction company that operates in Austria.",
+    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+    Previewlink: "https://berisha.co.at",
+    Githublink: "",
+  }
+  ,
+  {
     title: "WWW.PRIMALOUNGE.COM",
-    cardImage: "#",
+    cardImage: "assets/images/project-page/primalounge.png",
     description: "A WordPress Website created for the Primalounge company based in Peja, Kosove.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://primalounge.com/",
@@ -77,14 +86,7 @@ const projects = [
     Previewlink: "https://embel-home.de/",
     Githublink: "",
   },
-  {
-    title: "My old Portfolio",
-    cardImage: "assets/images/project-page/old_portfolio.webp",
-    description: "My Last Portfolio, 1 page website created with HTML, CSS and Javascript.",
-    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
-    Previewlink: "https://driton-old-portfolio.netlify.app/",
-    Githublink: "https://github.com/Driton-Gashi/old-portfolio",
-  },
+
   
   
 ];
@@ -169,6 +171,14 @@ const moreProjectsArray = [
     Previewlink: "https://dritontest6.netlify.app/",
     Githublink: "",
   },
+  {
+    title: "My old Portfolio",
+    cardImage: "assets/images/project-page/old_portfolio.webp",
+    description: "My Last Portfolio, 1 page website created with HTML, CSS and Javascript.",
+    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+    Previewlink: "https://driton-old-portfolio.netlify.app/",
+    Githublink: "https://github.com/Driton-Gashi/old-portfolio",
+  }
 ]
 
 // function for rendering project cards data

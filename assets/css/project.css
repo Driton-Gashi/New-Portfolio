@@ -8,6 +8,7 @@
   transition: 0.2s ease all;
   box-shadow: 0 19px 38px var(--shadow1), 0 15px 12px var(--shadow2);
   border-radius: 3px;
+  
 }
 .more-projects:hover{
   scale: 1.05;
