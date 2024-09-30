@@ -15,14 +15,6 @@ const projects = [
   }
   ,
   {
-    title: "WWW.PRIMALOUNGE.COM",
-    cardImage: "assets/images/project-page/primalounge.png",
-    description: "A WordPress Website created for the Primalounge company based in Peja, Kosove.",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://primalounge.com/",
-    Githublink: "",
-  },
-  {
     title: "WWW.AGMARKET-KS.COM",
     cardImage: "assets/images/project-page/AGmarket-ks.com.webp",
     description: "A WordPress Website created for the Ag Market company based in Peja, Kosove.",
@@ -30,38 +22,8 @@ const projects = [
     Previewlink: "https://agmarket-ks.com/",
     Githublink: "",
   },
-  {
-    title: "WWW.DRITON-GASHI.COM",
-    cardImage: "assets/images/project-page/dritondesign.webp",
-    description: "This is my actual portfolio website, created using HTML, CSS, and some Javascript Libraries",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "../index.html",
-    Githublink: "",
-  },
-  {
-    title: "WWW.ASANISAGENCY.COM",
-    cardImage: "assets/images/project-page/Asanis_Agency.webp",
-    description: "A WordPress Website created for the ASANISAGENCY company.",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://asanisagency.com",
-    Githublink: "",
-  },
-  {
-    title: "WWW.BANESAJUAJ.COM",
-    cardImage: "assets/images/project-page/banesajuaj.jpg",
-    description: "A WordPress Website created for the BANESAJUAJ company.",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://banesajuaj.com",
-    Githublink: "",
-  },
-  {
-    title: "WWW.IT2PI.COM",
-    cardImage: "assets/images/project-page/it2pi_square.webp",
-    description: "A WordPress Website created for IT2PI Company.",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://it2pi.ditar-compliance.de/",
-    Githublink: "",
-  },
+
+ 
   {
     title: "WWW.KANZLEI-AM-KURECK.DE",
     cardImage: "assets/images/project-page/kanzlei-am-kureck.webp",
@@ -87,7 +49,46 @@ const projects = [
     Githublink: "",
   },
 
-  
+  {
+    title: "WWW.PRIMALOUNGE.COM",
+    cardImage: "assets/images/project-page/primalounge.png",
+    description: "A WordPress Website created for the Primalounge company based in Peja, Kosove.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://primalounge.com/",
+    Githublink: "",
+  },
+  {
+    title: "WWW.IT2PI.COM",
+    cardImage: "assets/images/project-page/it2pi_square.webp",
+    description: "A WordPress Website created for IT2PI Company.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://it2pi.ditar-compliance.de/",
+    Githublink: "",
+  },
+  {
+    title: "WWW.ASANISAGENCY.COM",
+    cardImage: "assets/images/project-page/Asanis_Agency.webp",
+    description: "A WordPress Website created for the ASANISAGENCY company.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://asanisagency.com",
+    Githublink: "",
+  },
+  {
+    title: "WWW.BANESAJUAJ.COM",
+    cardImage: "assets/images/project-page/banesajuaj.jpg",
+    description: "A WordPress Website created for the BANESAJUAJ company.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://banesajuaj.com",
+    Githublink: "",
+  },
+  {
+    title: "WWW.DRITON-GASHI.COM",
+    cardImage: "assets/images/project-page/dritondesign.webp",
+    description: "This is my actual portfolio website, created using HTML, CSS, and some Javascript Libraries",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "../index.html",
+    Githublink: "",
+  },
   
 ];
 
