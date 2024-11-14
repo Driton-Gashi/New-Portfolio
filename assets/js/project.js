@@ -12,6 +12,14 @@ const projects = [
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
     Previewlink: "https://berisha.co.at",
     Githublink: "",
+  },
+  {
+    title: "WWW.PRIMALOUNGE.COM",
+    cardImage: "assets/images/project-page/primalounge.jpg",
+    description: "A WordPress Website created for Prima Lounge which is a Pizzeria and bar that operates in Peja city.",
+    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+    Previewlink: "https://primalounge.com/",
+    Githublink: "",
   }
   ,
   {
@@ -22,7 +30,6 @@ const projects = [
     Previewlink: "https://agmarket-ks.com/",
     Githublink: "",
   },
-
  
   {
     title: "WWW.KANZLEI-AM-KURECK.DE",
@@ -48,29 +55,20 @@ const projects = [
     Previewlink: "https://embel-home.de/",
     Githublink: "",
   },
-
   {
-    title: "WWW.PRIMALOUNGE.COM",
-    cardImage: "assets/images/project-page/primalounge.png",
-    description: "A WordPress Website created for the Primalounge company based in Peja, Kosove.",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://primalounge.com/",
+    title: "BAUUNTERNNEHMUNG-AR.DE",
+    cardImage: "assets/images/project-page/bauunternehmung-ar.png",
+    description: "A WordPress Website created for bauunternehmung AR Company.",
+    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+    Previewlink: "https://bauunternehmung-ar.de/",
     Githublink: "",
   },
   {
-    title: "WWW.IT2PI.COM",
-    cardImage: "assets/images/project-page/it2pi_square.webp",
-    description: "A WordPress Website created for IT2PI Company.",
+    title: "WWW.APEDABAU.CH",
+    cardImage: "assets/images/project-page/apedabau.png",
+    description: "A WordPress Website created for the Apedabau company.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://it2pi.ditar-compliance.de/",
-    Githublink: "",
-  },
-  {
-    title: "WWW.ASANISAGENCY.COM",
-    cardImage: "assets/images/project-page/Asanis_Agency.webp",
-    description: "A WordPress Website created for the ASANISAGENCY company.",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://asanisagency.com",
+    Previewlink: "https://apedabau.ch/",
     Githublink: "",
   },
   {
@@ -81,6 +79,16 @@ const projects = [
     Previewlink: "https://banesajuaj.com",
     Githublink: "",
   },
+];
+
+const moreProjectsArray = [{
+  title: "WWW.IT2PI.COM",
+  cardImage: "assets/images/project-page/it2pi_square.webp",
+  description: "A WordPress Website created for IT2PI Company.",
+  tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+  Previewlink: "https://it2pi.ditar-compliance.de/",
+  Githublink: "",
+},
   {
     title: "WWW.DRITON-GASHI.COM",
     cardImage: "assets/images/project-page/dritondesign.webp",
@@ -89,10 +97,6 @@ const projects = [
     Previewlink: "../index.html",
     Githublink: "",
   },
-  
-];
-
-const moreProjectsArray = [
   {
     title: "Full Stack Application With PERN",
     cardImage: "assets/images/project-page/gym-application.webp",
@@ -100,6 +104,14 @@ const moreProjectsArray = [
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
     Previewlink: "",
     Githublink: "https://github.com/Driton-Gashi/LAB1-GYM-Web-Application",
+  },
+  {
+    title: "WWW.ASANISAGENCY.COM",
+    cardImage: "assets/images/project-page/Asanis_Agency.webp",
+    description: "A WordPress Website created for the ASANISAGENCY company.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://asanisagency.com",
+    Githublink: "",
   },
   {
     title: "School Project Full Stack with Php and MySQL",
